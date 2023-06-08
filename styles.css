@@ -1,0 +1,25 @@
+/* дочерний - выбирает элемент по непосредственной вложенности */
+div > a {
+    border: 2px solid black;
+}
+
+#menu {
+    display: flex;
+}
+
+#menu a {
+    margin-right: 5px;
+    padding: 10px;
+    font: 15px Arial; /* указала только обязательные значения*/
+    text-decoration: none; /* откл подчеркивание ссылок (установлено по умолчанию) */
+    color: grey
+}
+
+/* реакция ссылок на наведение и при активной ссылке */
+#menu a:hover, #menu a.active {
+    color:white;
+    border: 2px solid blue;
+    background-color: grey;
+}
+
+
