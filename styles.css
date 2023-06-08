@@ -3,11 +3,11 @@ div > a {
     border: 2px solid black;
 }
 
-#menu {
+.menu {
     display: flex;
 }
 
-#menu a {
+.menu a {
     margin-right: 5px;
     padding: 10px;
     font: 15px Arial; /* указала только обязательные значения*/
@@ -16,7 +16,7 @@ div > a {
 }
 
 /* реакция ссылок на наведение и при активной ссылке */
-#menu a:hover, #menu a.active {
+.menu a:hover, .menu a.active {
     color:white;
     border: 2px solid blue;
     background-color: grey;
@@ -35,4 +35,9 @@ div > a {
     color: black;
     border: 2px solid red;
     background-color: white;
+}
+
+#menu-2 a {
+    margin:0px;
+    background-color: goldenrod;
 }
