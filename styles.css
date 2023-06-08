@@ -22,4 +22,17 @@ div > a {
     background-color: grey;
 }
 
+#vertical-menu a {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: 80px;
+    background-color: greenyellow;
+}
 
+/* состояние ссылок LoVe HAte - link, visited, hover, active */
+#vertical-menu a:hover, #vertical-menu a.active {
+    color: black;
+    border: 2px solid red;
+    background-color: white;
+}
