@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+.wrapper h1  {
+    margin: 0;
+    font: 40px "Times New Roman"
+}
+
+.wrapper h2 {
+    margin: 0;
+    font: 25px "Times New Roman"
+}
+
+.wrapper p {
+    font: 16px/1.4 Arial;
+    text-align: justify;
+}
+
+/* для центрирования */
+.center  {
+    width:800px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/* для покраски блоков */
+.wrapper.line {
+    background-color: green;
+    color:white;
+}
+
+/* родителькаждого блока - используем для отступов между блоками */
+.wrapper {
+    margin-bottom: 30px;
+}
+
